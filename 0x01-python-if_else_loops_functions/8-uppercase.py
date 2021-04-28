@@ -5,4 +5,3 @@ def uppercase(str):
             c = chr(ord(c) - ord(' '))
         print('{:s}'.format(c), end='')
     print('\n', end='')
-© 2021 GitHub, Inc.
