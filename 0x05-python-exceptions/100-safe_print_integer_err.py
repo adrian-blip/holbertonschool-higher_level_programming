@@ -9,6 +9,3 @@ def safe_print_integer_err(value):
     except Exception as idon:
         print("Exception: {}".format(idon), file=sys.stderr)
         return False
-
-     
-
