@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 def list_division(my_list_1, my_list_2, list_length):
     mulist = []
     for xc in range(list_length):
@@ -14,7 +16,7 @@ def list_division(my_list_1, my_list_2, list_length):
             print("out of range")
             div = 0
         finally:
-             mulist.append(div)
+            mulist.append(div)
     return(mulist)
 
 
