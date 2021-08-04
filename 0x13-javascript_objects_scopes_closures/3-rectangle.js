@@ -8,4 +8,12 @@ class Rectangle {
     }
   }
 }
+
+  print () {
+  // Method that prints the rectangle using the charactere 'X'
+    for (let i = 0; i < this.height; i++) {
+      console.log('X'.repeat(this.width));
+    }
+  }
+}
 module.exports = Rectangle;
