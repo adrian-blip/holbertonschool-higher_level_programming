@@ -7,12 +7,10 @@ class Rectangle {
       this.height = h;
     }
   }
-}
-
   print () {
-  // Method that prints the rectangle using the charactere 'X'
-    for (let i = 0; i < this.height; i++) {
-      console.log('X'.repeat(this.width));
+    let count;
+    for (count = 0; count < this.height; count++) {
+       console.log('X'.repeat(this.width));
     }
   }
 }
