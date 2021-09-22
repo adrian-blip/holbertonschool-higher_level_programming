@@ -1,4 +1,5 @@
-$(function () {
-  $("header").on( "click", "button", function( event ) {
-  $(event.delegateTarget ).css( "color", "#FF0000");
+  $(function () {
+  $('#red_header').click(function () {
+    $('header').css('color', '#FF0000');
+  });
 });
